@@ -348,7 +348,7 @@ input {
 .up-part .left-car-1 {
     width: 50%;
     height: 100%;
-    background-image: url('../images/Image\ 1.png');
+    background-image: url('/images/Image\ 1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,6 +364,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 40px;
 }
 
 .left-car-1 .card-left .card-content button {
@@ -383,7 +384,7 @@ input {
 .up-part .right-car-1 {
     width: 50%;
     height: 100%;
-    background-image: url('../images/ovGrEUgrkyE.png');
+    background-image: url('/images/ovGrEUgrkyE.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
