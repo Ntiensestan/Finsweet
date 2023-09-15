@@ -113,7 +113,7 @@ header nav ul li {
 .right {
     width: 50%;
     height: 100%;
-    background-image: url("../images/Image.png");
+    background-image: url("./images/Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +183,7 @@ button {
 
 .left-car h2 {
     font-weight: 800;
-    font-size: 54px;
+    font-size: 52px;
     color: #1e1b1b;
     line-height: 68px;
 }
@@ -239,7 +239,7 @@ input {
    padding: 60px 0px;
 }
 .left-clear h2 {
-    font-size: 56px;
+    font-size: 52px;
     font-weight: 800;
     line-height: 74px;
     color: #1e1b1b;
