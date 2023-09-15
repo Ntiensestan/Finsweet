@@ -55,15 +55,7 @@ header nav ul li {
     color: #1e1b1b;
 }
 
-.nav-contact .nav-logo {
-    background-color: #61c3a1;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 /* global styling */
 
 .parent-flex {
@@ -182,7 +174,7 @@ button {
 }
 
 .left-car h2 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 52px;
     color: #1e1b1b;
     line-height: 68px;
@@ -210,11 +202,12 @@ button {
 
 .right-car {
     padding: 60px 0px;
+    margin-left: 90px;
 }
 
 .right-car h3 {
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 35px;
     color: #1e1b1b;
     line-height: 63px;
 }
@@ -252,6 +245,10 @@ input {
     line-height: 24px;
     opacity: 60%;
 }
+
+.right-clear {
+    margin-left: 90px;
+}
 .right-top {
     display: flex;
     column-gap: 15px;
@@ -287,7 +284,9 @@ input {
 }
 
 #what-we-offer {
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+    
 
 }
 #what-we-offer .offer {
