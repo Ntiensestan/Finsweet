@@ -420,3 +420,303 @@ input {
     color: #1e1b1b;
 
 }
+
+@media screen and (max-width: 425px)  {
+    header {
+        width: 100%;
+        padding: 10px; 
+        flex-direction: column;
+        margin: 0px;
+        position: static;
+    
+    }
+    .logo p {
+        font-size: 18px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav-contact {
+        padding-left: 0%;
+    }
+    .nav-contact .nav-text p {
+        font-size: 12px;
+    }
+
+    #img-3 {
+        width: 18px;
+    }
+    header nav ul {
+        column-gap: 15px;
+        border-right: none;
+        padding-right: 0%;
+    }
+    header nav ul li {
+        font-size: 12px;
+    }
+    .parent-flex {
+        height: auto;
+        overflow-x: hidden;
+    }
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        padding: 20px; 
+    }
+    .left {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .right {
+        width: 100%;
+        padding: 20px 0;
+        height: 60vh;
+    }
+    #img-2 {
+        right: -17%;
+    }
+    .left-text {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        line-height: 55px;
+    }
+    button {
+        margin-left: 60px;
+        width: 150px;
+        height: 55px;
+    }
+    .left-sub {
+        padding-left: 30px;
+    }
+    .left-car {
+        width: 100%;
+        text-align: center;
+        padding: 0 0;
+    }
+
+    .left-car h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .right-car {
+        width: 100%;
+        padding: 0 0;
+        margin-left: 0;
+    }
+    input {
+        width: 320px;
+        height: 60px;
+        opacity: 50%;
+    }
+    .right-car button {
+        margin: 5px;
+    }
+    .right-car h3 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .left-clear {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .left-clear h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .right-clear {
+        width: 100%;
+        margin-left: 0;
+    }
+    .text-right-1 h4 {
+        font-size: 24px;
+    }
+
+    .bottom-text {
+        padding-left: 5px;
+    }
+
+    #what-we-offer .offer h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    #Get-in-touch {
+        height: auto;
+    }
+    #Get-in-touch .up-part {
+        flex-direction: column;
+        height: auto;
+    }
+    .up-part {
+        padding: 20px;
+    }
+    .up-part .left-car-1 {
+        width: 100%;
+    }
+    .up-part .right-car-1 {
+        width: 100%;
+        height: 35vh;
+    }
+
+    #Get-in-touch .up-part .left-car-1 .card-left .card-content h3 {
+        font-size: 30px;
+        font-weight: 700;
+    } 
+
+    .left-car-1 .card-left .card-content button {
+        width: 150px;
+        height: 50px;
+    }
+    #Get-in-touch .down-part {
+        height: auto;
+        padding: 15px 0;
+    }
+    .down-part .container {
+        flex-wrap: wrap;
+        width: 100%;
+    }   
+    .down-part .container .first {
+        width: 50%;
+        text-align: center;
+    }
+    .down-part .container h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .down-part .container p {
+        font-size: 18px;
+        line-height: 24px;
+    
+    }
+}
+/* for Tablet screen */
+@media screen and (max-width: 770px)  {
+    header {
+        width: 100%;
+        padding: 10px; 
+        flex-direction: column;
+        margin: 0px;
+        position: static;
+    
+    }
+    .logo p {
+        font-size: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav-contact {
+        padding-left: 0%;
+    }
+    .nav-contact .nav-text p {
+        font-size: 14px;
+    }
+
+    #img-3 {
+        width: 22px;
+    }
+    header nav ul {
+        column-gap: 15px;
+        border-right: none;
+        padding-right: 0%;
+    }
+    header nav ul li {
+        font-size: 14px;
+    }
+    .parent-flex {
+        height: auto;
+        overflow-x: hidden;
+    }
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        padding: 20px; 
+    }
+    .left {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .right {
+        width: 100%;
+        padding: 20px 0;
+        height: 100vh;
+    }
+    #img-1 {
+        width: 60%;
+        top: -14%;  
+        left: -17%; 
+    }
+    #img-2 {
+        width: 60%;
+        right: -17%;
+    }
+    .left-text {
+        font-size: 35px;
+        line-height: 65px;
+    }
+    button {
+        width: 150px;
+        height: 55px;
+    }
+    .left-sub {
+        margin-top: 10px;
+    }
+    .left-clear h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .right-car h3 {
+        font-size: 40px;
+        line-height: 50px;
+     }
+     .left-car {
+        padding: 0;
+     }
+     .text-right-1 h4 {
+        font-size: 28px;
+    }
+    .left-car h2 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #what-we-offer .offer h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    #Get-in-touch .up-part .left-car-1 .card-left .card-content h3 {
+        font-size: 30px;
+    }
+    .left-car-1 .card-left .card-content button {
+        width: 150px;
+        height: 50px;
+    }
+    #Get-in-touch .down-part {
+        height: auto;
+        padding: 15px 0;
+    }
+    .down-part .container {
+        flex-wrap: wrap;
+        width: 100%;
+    }   
+    .down-part .container .first {
+        width: 50%;
+        text-align: center;
+    }
+    .down-part .container h2 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .down-part .container p {
+        font-size: 22px;
+        line-height: 30px;
+    
+    }
+    
+}
