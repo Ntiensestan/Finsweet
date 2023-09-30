@@ -605,7 +605,7 @@ input {
     
     }
     .logo p {
-        font-size: 20px;
+        font-size: 24px;
     }
     nav {
         flex-direction: column;
@@ -614,11 +614,11 @@ input {
         padding-left: 0%;
     }
     .nav-contact .nav-text p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     #img-3 {
-        width: 22px;
+        width: 28px;
     }
     header nav ul {
         column-gap: 15px;
@@ -626,7 +626,7 @@ input {
         padding-right: 0%;
     }
     header nav ul li {
-        font-size: 14px;
+        font-size: 18px;
     }
     .parent-flex {
         height: auto;
@@ -650,7 +650,7 @@ input {
     }
     #img-1 {
         width: 60%;
-        top: -14%;  
+        top: 0%;  
         left: -17%; 
     }
     #img-2 {
